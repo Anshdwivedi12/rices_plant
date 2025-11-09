@@ -1,12 +1,10 @@
 "use client";
 
-
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiPlay, FiPhone } from "react-icons/fi";
+import { FiPlay, FiPhone, FiMail, FiMapPin, FiClock } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
-import { FiMail, FiMapPin, FiClock } from "react-icons/fi";
-import { FaWhatsapp as FaWhatsappSolid } from "react-icons/fa";
+
 
 
 export default function ContactPage() {
