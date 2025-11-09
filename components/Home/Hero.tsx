@@ -39,7 +39,8 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="flex items-center space-x-2 bg-[#25D366] px-4 py-2 rounded-full shadow-lg hover:bg-[#20BA5A] transition-colors group"
         >
-          <FaWhatsappSolid className="w-5 h-5 text-white" />
+          <FaWhatsapp className="w-5 h-5 text-white" />
+
           <span className="font-semibold text-white">WhatsApp</span>
         </a>
       </div>
