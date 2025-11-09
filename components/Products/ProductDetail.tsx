@@ -3,7 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FiDownload, FiPhone, FaWhatsapp } from "react-icons/fi";
+import { FiDownload, FiPhone } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { FaWhatsapp as FaWhatsappSolid } from "react-icons/fa";
 
 // Mock product data - in real app, fetch from API
