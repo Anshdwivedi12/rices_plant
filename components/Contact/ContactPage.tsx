@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiPlay, FiPhone, FiMail, FiMapPin, FiClock } from "react-icons/fi";
+import { FiMail, FiPhone, FiMapPin, FiClock } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
+
 
 
 
@@ -207,7 +208,8 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 w-full bg-[#25D366] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#20BA5A] transition-colors"
                 >
-                  <FaWhatsappSolid className="w-5 h-5" />
+                  <FaWhatsapp className="w-5 h-5" />
+
                   <span>WhatsApp</span>
                 </a>
                 <a
