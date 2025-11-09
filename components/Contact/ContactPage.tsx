@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiPhone, FiMail, FiMapPin, FiClock, FaWhatsapp } from "react-icons/fi";
+import { FiPhone, FiMail, FiMapPin, FiClock } from "react-icons/fi";
 import { FaWhatsapp as FaWhatsappSolid } from "react-icons/fa";
 
 export default function ContactPage() {
