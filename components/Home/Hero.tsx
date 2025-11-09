@@ -1,9 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FiPlay, FiPhone } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import { FiPlay, FiPhone, FaWhatsapp } from "react-icons/fi";
-import { FaWhatsapp as FaWhatsappSolid } from "react-icons/fa";
+
 
 export default function Hero() {
   const scrollToVideo = () => {
